@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Site made with Mobirise Website Builder v4.3.4, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v4.3.4, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="assets/images/logo2.png" type="image/x-icon">
+  <meta name="description" content="How we chose to model our data">
+  <title>Modeling</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/animate.css/animate.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+</head>
+<body>
+<section class="menu cid-qCwk1Eepa5" once="menu" id="menu1-b" data-rv-view="1316">
+
+    
+
+    <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center collapsed">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </button>
+        <div class="menu-logo">
+            <div class="navbar-brand">
+                
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-1" href="index.html">
+                        Crime in the City</a></span>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item">
+                    <a class="nav-link link text-white display-1" href="index.html">Home</a>
+                </li><li class="nav-item"><a class="nav-link link text-white display-1" href="process.html">Process</a></li><li class="nav-item"><a class="nav-link link text-white display-1" href="eda.html">EDA</a></li><li class="nav-item"><a class="nav-link link text-white display-1" href="modeling.html">
+                        
+                        Modeling</a></li><li class="nav-item"><a class="nav-link link text-white display-1" href="results.html">
+                        
+                        Results</a></li></ul>
+            
+        </div>
+    </nav>
+</section>
+
+<section class="engine"><a href="https://mobirise.co/o">bootstrap button</a></section><section class="cid-qD6BZcF1pN mbr-parallax-background" id="header2-20" data-rv-view="1318">
+
+    
+
+    <div class="mbr-overlay" style="opacity: 0.6; background-color: rgb(35, 35, 35);"></div>
+   <br /><br /><br />
+    <div class="container align-center">
+        <div class="row justify-content-md-center">
+            <div class="mbr-white col-md-10">
+                <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-2"><span style="font-weight: normal;">
+                    America's Next Top Models</span></h1>
+                
+                <p class="mbr-text pb-3 mbr-fonts-style display-5">
+                    Here we discuss our fitted models and how each fares in representing our data</p>
+                <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="Southeast.html#content4-22">STEPWISE</a> <a class="btn btn-md btn-primary display-4" href="Southeast.html#content4-23">MULTIPLE LINEAR</a> <a class="btn btn-md btn-primary display-4" href="Southeast.html#content4-24">POLYNOMIAL</a> <a class="btn btn-md btn-primary display-4" href="Southeast.html#content4-25">RIDGE &amp; LASSO</a> <a class="btn btn-md btn-primary display-4" href="Southeast.html#content4-2b">PCA</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
+        <a href="#next">
+            <i class="mbri-down mbr-iconfont"></i>
+        </a>
+    </div>
+        <br /><br /><br /><br /><br /><br />
+</section>
+
+<section class="header3 cid-qD6D06DEf9 mbr-fullscreen" id="header3-21" data-rv-view="862">
+    <div class="container">
+        <div class="media-content">
+                <h1 class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-5">
+                    Final results for our models</h1>
+                
+                <div class="mbr-section-text mbr-white pb-3 ">
+                    <p class="mbr-text mbr-fonts-style display-5">
+                        After training our data on 2006-2013, we use 2014 &amp; 2015 to test the accuracy of each model by region. Below are some of the specifics for each model.</p>
+                </div>
+                
+            </div>
+        <div class="media-container-row">
+            <div class="mbr-figure" style="width: 100%;">
+                <img src="assets/images/1. full.png" alt="Mobirise" title="" media-simple="true"><br /><br />
+            </div>
+
+            
+        </div>
+    </div>
+
+</section>
+
+<section class="mbr-section content4 cid-qD6EwgEjSF" id="content4-22" data-rv-view="865">
+
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center pb-3 mbr-fonts-style display-2">Stepwise Forward Selection (baseline)</h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">Given that our one-hot encoding provided several predictors, we wanted to get an idea of which non-categorical predictors might be significant to predicting murder rate. Therefore, we used forward selection with only the non-categorical predictors as candidates</h3>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="mbr-section article content9 cid-qD6Kq8jvcw" id="content9-2f" data-rv-view="867">
+    <div class="container">
+        <div class="inner-container" style="width: 100%;">
+            <hr class="line" style="width: 25%;">
+            <div class="section-text align-center mbr-fonts-style display-5"><strong>Stepwise Results</strong><br><br><strong>
+</strong>
+<div class="mbr-figure" style="width: 100%;">
+                <img src="assets/images/1. stepwise.png" alt="Mobirise" title="" media-simple="true">
+            </div>
+            <br /><br /><br />
+            <hr class="line" style="width: 25%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section content4 cid-qD6EwvMEUC" id="content4-23" data-rv-view="869">
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center pb-3 mbr-fonts-style display-2">Multiple Linear Regression</h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">Next we conducted multiple linear analysis using all the predictors, including the one hot encoded ones.</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content9 cid-qD6Ezg0OjW" id="content9-29" data-rv-view="871">
+    <div class="container">
+        <div class="inner-container" style="width: 100%;">
+            <hr class="line" style="width: 25%;">
+            <div class="section-text align-center mbr-fonts-style display-5"><strong>Multiple Linear Reg. Results</strong><br><br><div class="mbr-figure" style="width: 100%;">
+                <img src="assets/images/2. multiple linear.png" alt="Mobirise" title="" media-simple="true">
+            </div>
+            <br /><br /><br />
+            <div>We found that multiple linear regression gave varied results for each region. For the Northeast and Midwest, R^2 went slightly down. However, for other regions, we were able to see some improvements.</div></div>
+            <hr class="line" style="width: 25%;">
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="mbr-section content4 cid-qD6EwIZS9A" id="content4-24" data-rv-view="873">
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center pb-3 mbr-fonts-style display-2">Polynomial Regression</h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">Given that we have quite a few numerical columns, we decided to try polynomial regression using these columns as well. We created polynomials to the power of 2 and included them into our regression analysis.</h3>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content10 cid-qD6Ez1yDIi" id="content10-28" data-rv-view="875">
+    <div class="container">
+        <div class="inner-container" style="width: 100%;">
+            <hr class="line" style="width: 25%;">
+            <div class="section-text align-center mbr-white mbr-fonts-style display-5"><div><strong>Polynomial Reg. Results</strong><br></div><br>
+            <div class="mbr-figure" style="width: 100%;">
+                <img src="assets/images/3. polynomial.png" alt="Mobirise" title="" media-simple="true">
+                <br /><br />
+            </div>
+            <div>We found that our test R^2 scores generally went up. We recognize that simply having more predictors can sometimes falsely increase R^2 scores, however, this may also imply that the inclusion of polynomial predictors were able to create a more fitting model.</div></div>
+            <hr class="line" style="width: 25%;">
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section content4 cid-qD6EwWoIK4" id="content4-25" data-rv-view="877">
+
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center pb-3 mbr-fonts-style display-2">Ridge &amp; Lasso Regressions</h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">Our datasets do not have an overly high number of observations in the training set. However, even so, we recognize that overfitting is a concern we must keep in mind when looking at data sets. Therefore we tried fitting a Ridge and Lasso regression as well.</h3>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content9 cid-qD6KrcvlZx" id="content9-2g" data-rv-view="879">
+<div class="container">
+        <div class="inner-container" style="width: 100%;">
+            <hr class="line" style="width: 25%;">
+            <div class="section-text align-center mbr-fonts-style display-5"><strong>Lasso Results</strong><br><br>
+<div class="mbr-figure" style="width: 100%;">
+                <img src="assets/images/5. lasso.png" alt="Mobirise" title="" media-simple="true">
+            </div>
+            
+           
+        </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content9 cid-qD6KrcvlZx" id="#" data-rv-view="879">
+<div class="container">
+        <div class="inner-container" style="width: 100%;">
+            
+            <div class="section-text align-center mbr-fonts-style display-5"><strong>Ridge Results</strong><br><br>
+<div class="mbr-figure" style="width: 100%;">
+                <img src="assets/images/4. ridge.png" alt="Mobirise" title="" media-simple="true">
+            </div>
+            <br /><br /><br />
+            <hr class="line" style="width: 25%;">
+        </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section content4 cid-qD6EVQxYJo" id="content4-2b" data-rv-view="881">
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center pb-3 mbr-fonts-style display-2">PCA
+                </h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">Given that our data has high dimensionality as a result of the one-hot encoding, we decided that reducing dimensions via PCA would be appropriate.</h3>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content9 cid-qD6EyOUqqH" id="content9-27" data-rv-view="883">
+    
+     
+
+    <div class="container">
+        <div class="inner-container" style="width: 100%;">
+            <hr class="line" style="width: 25%;">
+            <div class="section-text align-center mbr-fonts-style display-5"><strong>PCA Results</strong><br><br>
+            <div class="mbr-figure" style="width: 100%;">
+                <img src="assets/images/7. PCA_low.png" alt="Mobirise" title="" media-simple="true">
+            </div>
+
+            <br /><br />
+            <div class="mbr-figure" style="width: 100%;">
+                <img src="assets/images/6. PCA_high.png" alt="Mobirise" title="" media-simple="true">
+            </div>
+
+            <br /><br />
+            <hr class="line" style="width: 25%;">
+        </div>
+        </div>
+    </div>
+</section>
+<section class="header3 cid-qD6IjrPnBM mbr-fullscreen mbr-parallax-background" id="header3-2d" data-rv-view="1344">
+
+    
+
+    <div class="mbr-overlay" style="opacity: 0.4; background-color: rgb(0, 0, 0);">
+    </div>
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-figure" style="width: 100%;">
+                <img src="assets/images/heat-699x587.png" alt="Mobirise" title="" media-simple="true">
+            </div>
+
+            <div class="media-content">
+                <h1 class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-2">Collinearity Heatmap</h1>
+                
+                <div class="mbr-section-text mbr-white pb-3 ">
+                    <p class="mbr-text mbr-fonts-style display-5">Given our surprisingly high scores from the limitless PCA, we suspected that perhaps our predictors may be collinear in a way that gives us falsely high PCA scores. Thus, we examined a heat map of our non-encoded predictors. We found that unsurprisingly, predictors such as median_age_f, median_age_m and median_age were all correlated. Additionally, although percent employed and percent unemployed are not necessarily the converse of each other, they were significantly negatively correlated.
+<br>
+<br>However, given that we have a large number of predictors, we don't suspect that the fact that these groups were correlated would have had a significant impact on how high the test scores were. That said, we do think that these correlated values may have had some impact on the scores that we observed.<br><br>Overall, we found that for all regions of the US, using PCA analysis with a high number of components will result in a very high  R^2 value.&nbsp;<br></p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="testimonials1 cid-qD9wBjzg5p" id="testimonials1-2p" data-rv-view="1217">
+
+    
+<br /><br /><br /><br />
+    
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 align-center">
+                <h2 class="pb-3 mbr-fonts-style display-2">Project Team</h2>
+                <h3 class="mbr-section-subtitle mbr-light pb-3 mbr-fonts-style display-5">
+                    Harvard CS109A Final Project Team, Group #18</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt-3 mt-2">
+        <div class="media-container-row">
+            
+            <div class="mbr-testimonial p-3 align-center col-12 col-md-6 col-lg-4">
+                <div class="panel-item p-3">
+                    <div class="card-block">
+                         <div class="testimonial-photo">
+                            <img src="assets/images/bunny.jpg" alt="" title="" media-simple="true">
+                        </div>
+                        <p class="mbr-text mbr-fonts-style display-7"></p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="mbr-author-name mbr-bold mbr-fonts-style display-7">Kaitlyn Schiffhauer&nbsp;</div>
+                        <small class="mbr-author-desc mbr-italic mbr-light mbr-fonts-style display-7">
+                               Harvard Class of 2019<br>Scraping, Modeling, Analysis, Literature Review&nbsp;<br></small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mbr-testimonial p-3 align-center col-12 col-md-6 col-lg-4">
+                <div class="panel-item p-3">
+                    <div class="card-block">
+                         <div class="testimonial-photo">
+                            <img src="assets/images/walle.jpg" alt="" title="" media-simple="true">
+                        </div> 
+                        <p class="mbr-text mbr-fonts-style display-7"></p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="mbr-author-name mbr-bold mbr-fonts-style display-7">Elgin Davis&nbsp;</div>
+                        <small class="mbr-author-desc mbr-italic mbr-light mbr-fonts-style display-7">
+                               Harvard Class of 2019<br>Scraping, Modeling, Analysis, Website Design &amp; Dev</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mbr-testimonial p-3 align-center col-12 col-md-6 col-lg-4">
+                <div class="panel-item p-3">
+                    <div class="card-block">
+                        <div class="testimonial-photo">
+                            <img src="assets/images/bird.jpg" alt="" title="" media-simple="true">
+                        </div>
+                        <p class="mbr-text mbr-fonts-style display-7"></p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="mbr-author-name mbr-bold mbr-fonts-style display-7">
+                             Melissa Lee</div>
+                        <small class="mbr-author-desc mbr-italic mbr-light mbr-fonts-style display-7">
+                               Harvard Class of 2017<br>Scraping, Modeling, Analysis, Literature Review<br></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+</section>
+
+
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/popper/popper.min.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/smooth-scroll/smooth-scroll.js"></script>
+  <script src="assets/touch-swipe/jquery.touch-swipe.min.js"></script>
+  <script src="assets/viewport-checker/jquery.viewportchecker.js"></script>
+  <script src="assets/jarallax/jarallax.min.js"></script>
+  <script src="assets/dropdown/js/script.min.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  
+  
+ <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbri-down mbr-iconfont"></i></a></div>
+    <input name="animation" type="hidden">
+  </body>
+</html>
