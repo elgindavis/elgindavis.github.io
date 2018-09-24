@@ -72,7 +72,7 @@
     "robotsSwitcher": "on",
     "siteUrl": "http://elgindavis.github.io",
     "sitemapSwitcherAuto": "on",
-    "favicon": "",
+    "favicon": "@PROJECT_PATH@/assets/images/chef-128x142-1.png",
     "noImageResize": "",
     "google-analytics": "",
     "sitemapSwitcher": "on",
