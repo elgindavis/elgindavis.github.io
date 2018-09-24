@@ -2955,6 +2955,12 @@ body {
 .cid-r4vBktl7be .mbr-section-subtitle {
   font-style: italic;
 }
+.cid-r4vBktl7be H1 {
+  color: #232323;
+}
+.cid-r4vBktl7be P {
+  color: #232323;
+}
 .cid-r4wx4K5AYi {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -3429,10 +3435,10 @@ body {
   font-style: italic;
 }
 .cid-r4vBHzB1Ix H1 {
-  color: #232323;
+  color: #efefef;
 }
 .cid-r4vBHzB1Ix P {
-  color: #232323;
+  color: #efefef;
 }
 .cid-r4wxpel96N {
   padding-top: 30px;
