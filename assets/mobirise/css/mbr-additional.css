@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Permanent+Marker:400);
-@import url(https://fonts.googleapis.com/css?family=Vollkorn:400,400i,600,600i,700,700i,900,900i);
 @import url(https://fonts.googleapis.com/css?family=Hind+Madurai:300,400,500,600,700);
 
 
@@ -43,7 +42,7 @@ body {
   font-size: 1.6rem;
 }
 .display-5 {
-  font-family: 'Vollkorn', serif;
+  font-family: 'Hind Madurai', sans-serif;
   font-size: 1.5rem;
 }
 .display-5 > .mbr-iconfont {
@@ -1765,6 +1764,65 @@ body {
 }
 .cid-r4v08pN0ip {
   background-image: url("../../../assets/images/elgin-space.png");
+}
+.cid-r4v08pN0ip H1 {
+  color: #efefef;
+}
+.cid-r5xZOwrNOa {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-color: #202020;
+}
+.cid-r5xZOwrNOa H2 {
+  color: #efefef;
+}
+.cid-r5y0EmlTEU {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background-color: #efefef;
+}
+.cid-r5y0EmlTEU .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-r5y15a5erl {
+  padding-top: 30px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-r5y15a5erl .mbr-text,
+.cid-r5y15a5erl blockquote {
+  color: #767676;
+}
+.cid-r5y15DCwzE {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-r5y15DCwzE .mbr-text,
+.cid-r5y15DCwzE blockquote {
+  color: #767676;
+}
+.cid-r5y15SKi7d {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #efefef;
+}
+.cid-r5y15SKi7d .mbr-text,
+.cid-r5y15SKi7d blockquote {
+  color: #767676;
+}
+.cid-r5y7FDydre {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  background-color: #efefef;
+}
+.cid-r5y8vLF3fA {
+  padding-top: 45px;
+  padding-bottom: 60px;
+  background: linear-gradient(45deg, #b2ccd2, #149dcc);
+}
+.cid-r5y8vLF3fA .btn {
+  margin: 0 0 .5rem 0;
 }
 .cid-r4wtEVu5Qo {
   padding-top: 30px;
