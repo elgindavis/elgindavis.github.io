@@ -1,1 +1,1 @@
-Website for http://elgindavis.world and elgindavis.github.io
+Website for and http://elgindavis.github.io
