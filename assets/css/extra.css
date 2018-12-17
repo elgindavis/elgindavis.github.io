@@ -2,7 +2,9 @@
 	font-size: 2rem !important;
 }
 
-#design-choices, #audience, #process, #learnings, #difficulty, #controls, #incentives, #player-learning, #takeaways {
+#design-choices, #audience, #process, #learnings, #difficulty,
+#controls, #incentives, #player-learning, #takeaways, #bible-process,
+#development {
 	display: none;
 }
 
@@ -11,5 +13,5 @@ p {
 }
 
 .btn {
-	border-radius: 100px !important;
+	border-radius: 75px !important;
 }
