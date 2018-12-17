@@ -1,0 +1,15 @@
+.points {
+	font-size: 2rem !important;
+}
+
+#design-choices, #audience, #process, #learnings, #difficulty, #controls, #incentives, #player-learning, #takeaways {
+	display: none;
+}
+
+p {
+	margin-top: 2% !important;
+}
+
+.btn {
+	border-radius: 100px !important;
+}
