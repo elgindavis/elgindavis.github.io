@@ -14,4 +14,5 @@ p {
 
 .btn {
 	border-radius: 75px !important;
+	padding: .4rem 2rem !important;
 }
