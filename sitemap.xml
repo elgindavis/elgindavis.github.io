@@ -1,17 +1,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>http://elgindavis.github.io/index.html</loc>
+		<loc>http://elgindavis.github.io/index</loc>
 	</url>
 	<url>
-		<loc>http://elgindavis.github.io/projects.html</loc>
+		<loc>http://elgindavis.github.io/projects</loc>
 	</url>
 	<url>
-		<loc>http://elgindavis.github.io/blog.html</loc>
+		<loc>http://elgindavis.github.io/blog</loc>
 	</url>
 	<url>
-		<loc>http://elgindavis.github.io/about.html</loc>
+		<loc>http://elgindavis.github.io/about</loc>
 	</url>
 	<url>
-		<loc>http://elgindavis.github.io/resume.html</loc>
+		<loc>http://elgindavis.github.io/resume</loc>
 	</url>
 </urlset>

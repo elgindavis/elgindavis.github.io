@@ -12,7 +12,16 @@ p {
 	margin-top: 2% !important;
 }
 
+.app-icon {
+	border-radius: 75px !important;
+}
+
 .btn {
 	border-radius: 75px !important;
 	padding: .4rem 2rem !important;
+}
+
+.rotate90 {
+    width: 250px !important;
+    height: 250px !important;
 }
