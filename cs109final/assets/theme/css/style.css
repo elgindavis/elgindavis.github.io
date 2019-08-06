@@ -76,16 +76,16 @@ section {
 
 /*! Base colors */
 .mbr-white {
-  color: #ffffff; }
+  color: #fefefe; }
 
 .mbr-black {
-  color: #000000; }
+  color: #040404; }
 
 .mbr-bg-white {
-  background-color: #ffffff; }
+  background-color: #fefefe; }
 
 .mbr-bg-black {
-  background-color: #000000; }
+  background-color: #040404; }
 
 /*! Text-aligns */
 .align-left {
@@ -285,7 +285,7 @@ nav .mbr-section-btn {
   position: fixed;
   text-align: right;
   z-index: 5000;
-  color: #ffffff;
+  color: #fefefe;
   font-size: 32px;
   transform: rotate(180deg);
   -webkit-transform: rotate(180deg); }
