@@ -74,6 +74,10 @@ body {
     line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
   }
 }
+
+.display-7 {
+  font-size: 1rem !important;
+}
 /* Buttons */
 .btn {
   padding: 1rem 3rem;
