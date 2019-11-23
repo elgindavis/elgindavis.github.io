@@ -3830,7 +3830,8 @@ section.lazy-placeholder:after {
 .cid-rHEFXPr8O1 {
   padding-top: 45px;
   padding-bottom: 45px;
-  background-image: url("../../../assets/images/paper-texture-normal2x-1624x750.png");
+  background: #e1f5ff;
+  /*background-image: url("../../../assets/images/paper-texture-normal2x-1624x750.png");*/
 }
 @media (max-width: 767px) {
   .cid-rHEFXPr8O1 .media-wrap {
