@@ -106,7 +106,7 @@ a, a:focus, a:hover {
 .youtube-responsive-container {
 position:relative;
 padding-bottom:56.25%;
-padding-top:30px;
+/*padding-top:30px;*/
 height:0;
 overflow:hidden;
 margin: 24px 24px;
@@ -133,6 +133,13 @@ height:100%;
 .card-panel {
   margin: 0;
   padding: 60px;
+}
+
+.title-line {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  border-top: 6px solid var(--main-bg-color);
+  border-radius: 20px;
 }
 
 /**
