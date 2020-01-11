@@ -103,6 +103,11 @@ a, a:focus, a:hover {
   /*color: #777777;*/
 }
 
+.app-icons {
+  border-radius: 30px; 
+  height: 150px;
+}
+
 .youtube-responsive-container {
 position:relative;
 padding-bottom:56.25%;
