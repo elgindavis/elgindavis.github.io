@@ -11,10 +11,10 @@
 
 :root {
   /*--main-bg-color: #df003a;*/
-  --main-bg-color: #88306B;
-  --main-overlay-color: #9E4F84;
+  --main-bg-color: #227B7B;
+  --main-overlay-color: #61AAAA;
   /*--main-overlay-color: rgba(224, 0, 59, 0.8);*/
-  --primary: #88306B;
+  --primary: #227B7B;
   --secondary: #f00000;
   --white: #fff;
   --link_block_bg: #f9fcff;
