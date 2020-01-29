@@ -113,6 +113,11 @@ a, a:focus, a:hover {
       padding-left: 0;
     }
  }
+
+.single-gallery-image > img {
+  border-radius: 4px;
+}
+
 .app-icons {
   border-radius: 30px; 
   height: 150px;

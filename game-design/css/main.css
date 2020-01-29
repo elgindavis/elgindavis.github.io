@@ -11,10 +11,12 @@
 
 :root {
   /*--main-bg-color: #df003a;*/
-  --main-bg-color: #227B7B;
-  --main-overlay-color: #61AAAA;
+  --main-bg-color: #9c0e5e;
+  /*--main-bg-color: #88306B;*/
+  --main-overlay-color: #c46587;
+  /*--main-overlay-color: #9E4F84;*/
   /*--main-overlay-color: rgba(224, 0, 59, 0.8);*/
-  --primary: #227B7B;
+  --primary: #88306B;
   --secondary: #f00000;
   --white: #fff;
   --link_block_bg: #f9fcff;
@@ -111,6 +113,11 @@ a, a:focus, a:hover {
       padding-left: 0;
     }
  }
+
+.single-gallery-image > img {
+  border-radius: 4px;
+}
+
 .app-icons {
   border-radius: 30px; 
   height: 150px;
