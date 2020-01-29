@@ -1195,7 +1195,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .single-gallery-image {
-  /*margin: 15px 0;*/
+  margin: 15px 0;
   background-repeat: no-repeat !important;
   background-position: center center !important;
   background-size: cover !important;
@@ -2350,7 +2350,7 @@ nav a:hover {
 
 .carousel-area {
   position: relative;
-  /*background: url(../img/carousel-bg.jpg) no-repeat center center/cover;*/
+  background: url(../img/carousel-bg.jpg) no-repeat center center/cover;
 }
 
 .carousel-area .overlay-bg {
@@ -2433,7 +2433,7 @@ nav a:hover {
 }
 
 .active-bottle-carousel .owl-controls .owl-dots .owl-dot.active {
-  /*background: white;*/
+  background: white;
   width: 50px;
 }
 
