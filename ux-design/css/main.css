@@ -1195,11 +1195,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .single-gallery-image {
-  margin-top: 30px;
+  margin: 15px 0;
   background-repeat: no-repeat !important;
   background-position: center center !important;
   background-size: cover !important;
-  height: 200px;
+  /*height: 200px;*/
 }
 
 .list-style {
@@ -2517,7 +2517,7 @@ nav a:hover {
 
 .footer-widget-area {
   position: relative;
-  background: url(../img/aziz-acharki-285336-unsplash.jpg) no-repeat center center/cover;
+  /*background: url(../img/aziz-acharki-285336-unsplash.jpg) no-repeat center center/cover;*/
 } 
 
 .footer-widget-area .overlay-bg {
