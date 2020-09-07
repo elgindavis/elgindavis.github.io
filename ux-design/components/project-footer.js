@@ -25,34 +25,52 @@ customElements.define('project-footer', class extends ProjectFooter {
 						<div class="total-achivement">
 							<div class="row">
 								<div class="col-md-4 col-sm-6">
-									<div class="single-achivement">
-										<a href="clinic-web" target="_blank"><img class="app-icons" src="../img/televet-logo.jpeg" alt="televet logo" /></a>
-										<h6><a href="foxy-birds">TeleVet B2B Web App</a></h6>
-									</div>
+                                    <a href="clinic-web" target="_blank">
+                                        <div class="single-achivement">
+                                            <img class="app-icons" src="../img/televet-logo.jpeg" alt="televet logo" />
+                                            <h6>TeleVet B2B Web App</h6>
+                                        </div>
+                                    </a>
 								</div>
 								<div class="col-md-4 col-sm-6">
-									<div class="single-achivement">
-										<a href="pet-web" target="_blank"><img class="app-icons" src="../img/televet-logo.jpeg" alt="televet logo" /></a>
-										<h6><a href="foxy-birds">TeleVet B2C Web App</a></h6>
-									</div>
+                                    <a href="pet-web" target="_blank">
+									    <div class="single-achivement">
+                                            <img class="app-icons" src="../img/televet-logo.jpeg" alt="televet logo" />
+										<h6>TeleVet B2C Web App</h6>
+                                        </div>
+                                    </a>
 								</div>
 								<div class="col-md-4 col-sm-6">
-									<div class="single-achivement">
-										<a href="winter-hearth-studios" target="_blank"><img class="app-icons" src="../img/winter-hearth-logo.png" alt="Winter Hearth Studios logo"/></a>
-										<h6><a href="foxy-birds">Winter Hearth Studios</a></h6>
-									</div>
+                                    <a href="more-human-podcast" target="_blank">
+                                        <div class="single-achivement">
+                                            <img class="app-icons" src="../img/more-human-cover.png" alt="More Human Podcast cover"/>
+                                            <h6>More Human Podcast</h6>
+                                        </div>
+                                    </a>
 								</div>
 								<div class="col-md-4 col-sm-6">
-									<div class="single-achivement">
-										<a href="foxy-birds" target="_blank"><img class="app-icons" src="../img/fox-icon.png" alt="Foxy Birds" title="Foxy Birds mobile game"/></a>
-										<h6><a href="foxy-birds">Foxy Birds (2019)</a></h6>
-									</div>
+                                    <a href="winter-hearth-studios" target="_blank">
+									    <div class="single-achivement">
+                                            <img class="app-icons" src="../img/winter-hearth-logo.png" alt="Winter Hearth Studios logo"/>
+                                        <h6>Winter Hearth Studios</h6>
+                                        </div>
+                                        </a>
 								</div>
 								<div class="col-md-4 col-sm-6">
-									<div class="single-achivement">
-										<a href="trivago" target="_blank"><img class="app-icons" src="../img/trivago-logo-506x506.png" alt="trivago UX Design Internship" title="Foxy Birds"/></a>
-										<h6><a href="trivago">UX Design (2019)</a></h6>
-									</div>
+                                    <a href="foxy-birds" target="_blank">
+                                        <div class="single-achivement">
+                                            <img class="app-icons" src="../img/fox-icon.png" alt="Foxy Birds" title="Foxy Birds mobile game"/>
+                                            <h6>Foxy Birds (2019)</h6>
+                                        </div>
+                                    </a>
+								</div>
+								<div class="col-md-4 col-sm-6">
+                                    <a href="trivago" target="_blank">
+									    <div class="single-achivement">
+                                            <img class="app-icons" src="../img/trivago-logo-506x506.png" alt="trivago UX Design Internship" title="Foxy Birds"/>
+										    <h6>UX Design (2019)</h6>
+                                        </div>
+                                    </a>
 								</div>
 								<!-- <div class="col-md-4 col-sm-6">
 									<div class="single-achivement">
@@ -66,12 +84,12 @@ customElements.define('project-footer', class extends ProjectFooter {
 										<h6><a href="weather-bible">Weather Bible (2020)</a></h6>
 									</div>
 								</div> -->
-								<div class="col-md-4 col-sm-6">
+							<!--	<div class="col-md-4 col-sm-6">
 									<div class="single-achivement">
 										<a href="lifechurch" target="_blank"><img class="app-icons" src="../img/lclogo.jpg" alt="Life.Church" title="Life.Church"/></a>
 										<h6><a href="lifechurch">SWE (2018)</a></h6>
 									</div>
-								</div>
+								</div> -->
 								<!-- <div class="col-md-4 col-sm-6">
 									<div class="single-achivement">
 										<a href="openclassrooms" target="_blank"><img class="app-icons" src="../img/oclogo.png" alt="OpenClassrooms" title="OpenClassrooms"/></a>
