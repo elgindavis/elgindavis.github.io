@@ -2361,7 +2361,6 @@ nav a:hover {
 
 .carousel-area {
   position: relative;
-  background: url(../img/carousel-bg.jpg) no-repeat center center/cover;
 }
 
 .carousel-area .overlay-bg {
@@ -2378,7 +2377,7 @@ nav a:hover {
 }
 
 .active-bottle-carousel .carousel-thumb img {
-  width: auto;
+  max-width: 400px;
 }
 
 @media (max-width: 1199px) {

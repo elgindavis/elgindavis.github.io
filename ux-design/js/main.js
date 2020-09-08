@@ -35,7 +35,7 @@ $(document).ready(function(){
         loop:true,
         nav: false,
         autoplay: true,
-        autoplayTimeout:3000,
+        autoplayTimeout:6000,
         autoplayHoverPause:true
     });
 
