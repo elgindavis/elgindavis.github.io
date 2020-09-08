@@ -1,19 +1,18 @@
 class ProjectFooter extends HTMLElement {
-    constructor() {
-        // Always call super first in constructor
-        super();
+  constructor() {
+    // Always call super first in constructor
+    super();
+  }
 
-    }
-
-    connectedCallback() {
-    }
-    disconnectedCallback() {
-    }
+  connectedCallback() {}
+  disconnectedCallback() {}
 }
 
-customElements.define('project-footer', class extends ProjectFooter {
+customElements.define(
+  "project-footer",
+  class extends ProjectFooter {
     connectedCallback() {
-        this.innerHTML = `
+      this.innerHTML = `
             <section class="achivement-area">
 			<div class="container text-center" style="padding: 48px 0;">
 				<div>
@@ -102,5 +101,7 @@ customElements.define('project-footer', class extends ProjectFooter {
 				</div>
 			</div>
 		</section>
-    `
-}});
+    `;
+    }
+  }
+);

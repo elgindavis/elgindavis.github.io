@@ -16,13 +16,13 @@
   --main-overlay-color: #c46587;
   /*--main-overlay-color: #9E4F84;*/
   /*--main-overlay-color: rgba(224, 0, 59, 0.8);*/
-  --primary: #88306B;
+  --primary: #88306b;
   --secondary: #f00000;
   --white: #fff;
   --link_block_bg: #f9fcff;
   --main-text-color: #555555;
   --dark-text-color: #555555;
-  --link-color: #88306B;
+  --link-color: #88306b;
 }
 
 ::-moz-selection {
@@ -77,7 +77,8 @@ body {
   position: relative;
 }
 
-ol, ul {
+ol,
+ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -102,46 +103,50 @@ iframe {
   border: 0;
 }
 
-a, a:focus, a:hover {
+a,
+a:focus,
+a:hover {
   text-decoration: none;
   outline: 0;
   /*color: var(--main-text-color);*/
 }
 
-@media(max-width: 1198px) {
-    #trivago-bottom-video {
-      padding-left: 0;
-    }
- }
+@media (max-width: 1198px) {
+  #trivago-bottom-video {
+    padding-left: 0;
+  }
+}
 
 .single-gallery-image > img {
   border-radius: 4px;
 }
 
 .app-icons {
-  border-radius: 10px; 
+  border-radius: 10px;
   height: 150px;
 }
 
 .app-icons:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .youtube-responsive-container {
-position:relative;
-padding-bottom:56.25%;
-/*padding-top:30px;*/
-height:0;
-overflow:hidden;
-margin: 48px 48px;
+  position: relative;
+  padding-bottom: 56.25%;
+  /*padding-top:30px;*/
+  height: 0;
+  overflow: hidden;
+  margin: 48px 48px;
 }
 
-.youtube-responsive-container iframe, .youtube-responsive-container object, .youtube-responsive-container embed {
-position:absolute;
-top:0;
-left:0;
-width:100%;
-height:100%;
+.youtube-responsive-container iframe,
+.youtube-responsive-container object,
+.youtube-responsive-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .btn.active.focus,
@@ -170,7 +175,11 @@ height:100%;
  *  Typography
  *
  **/
-.btn i, .btn-large i, .btn-floating i, .btn-large i, .btn-flat i {
+.btn i,
+.btn-large i,
+.btn-floating i,
+.btn-large i,
+.btn-flat i {
   font-size: 1em;
   line-height: inherit;
 }
@@ -179,8 +188,12 @@ height:100%;
   background: #f9f9ff;
 }
 
-h1, h2, h3,
-h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Poppins", sans-serif;
   color: var(--dark-text-color);
   line-height: 1.5em;
@@ -189,8 +202,12 @@ h4, h5, h6 {
   font-weight: 500;
 }
 
-.h1, .h2, .h3,
-.h4, .h5, .h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
   margin-bottom: 0;
   margin-top: 0;
   font-family: "Poppins", sans-serif;
@@ -198,32 +215,39 @@ h4, h5, h6 {
   color: var(--dark-text-color);
 }
 
-h1, .h1 {
+h1,
+.h1 {
   font-size: 36px;
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: 30px;
 }
 
-h3, .h3 {
+h3,
+.h3 {
   font-size: 24px;
 }
 
-h4, .h4 {
+h4,
+.h4 {
   font-size: 18px;
 }
 
-h5, .h5 {
+h5,
+.h5 {
   font-size: 16px;
 }
 
-h6, .h6 {
+h6,
+.h6 {
   font-size: 14px;
   color: var(--dark-text-color);
 }
 
-td, th {
+td,
+th {
   border-radius: 0px;
 }
 
@@ -236,7 +260,8 @@ td, th {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-.clear::before, .clear::after {
+.clear::before,
+.clear::after {
   content: " ";
   display: table;
 }
@@ -812,7 +837,12 @@ td, th {
   font-size: 24px;
 }
 
-b, i, sup, sub, u, del {
+b,
+i,
+sup,
+sub,
+u,
+del {
   color: var(--primary);
 }
 
@@ -840,11 +870,21 @@ h6 {
   font-size: 14px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 1.5em;
 }
 
-.typography h1, .typography h2, .typography h3, .typography h4, .typography h5, .typography h6 {
+.typography h1,
+.typography h2,
+.typography h3,
+.typography h4,
+.typography h5,
+.typography h6 {
   color: var(--main-text-color);
 }
 
@@ -1140,7 +1180,10 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
 }
 
-.progress-table .table-head .serial, .progress-table .table-head .country, .progress-table .table-head .visit, .progress-table .table-head .percentage {
+.progress-table .table-head .serial,
+.progress-table .table-head .country,
+.progress-table .table-head .visit,
+.progress-table .table-head .percentage {
   color: var(--dark-text-color);
   line-height: 40px;
   text-transform: uppercase;
@@ -1153,7 +1196,10 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
 }
 
-.progress-table .table-row .serial, .progress-table .table-row .country, .progress-table .table-row .visit, .progress-table .table-row .percentage {
+.progress-table .table-row .serial,
+.progress-table .table-row .country,
+.progress-table .table-row .visit,
+.progress-table .table-row .percentage {
   display: flex;
   align-items: center;
 }
@@ -1594,7 +1640,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .primary-checkbox input:checked + label {
-  background: url(../img/elements/primary-check.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -1632,7 +1679,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .confirm-checkbox input:checked + label {
-  background: url(../img/elements/success-check.png) no-repeat center center/cover;
+  background: url(../img/elements/success-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -1675,7 +1723,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .disabled-checkbox input:checked + label {
-  background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -1713,7 +1762,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .primary-radio input:checked + label {
-  background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -1751,7 +1801,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .confirm-radio input:checked + label {
-  background: url(../img/elements/success-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/success-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -1794,7 +1845,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .disabled-radio input:checked + label {
-  background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -2528,7 +2580,7 @@ nav a:hover {
 .footer-widget-area {
   position: relative;
   /*background: url(../img/aziz-acharki-285336-unsplash.jpg) no-repeat center center/cover;*/
-} 
+}
 
 .footer-widget-area .overlay-bg {
   background: var(--main-overlay-color);

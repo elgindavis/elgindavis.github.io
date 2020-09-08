@@ -1,19 +1,18 @@
 class Footer extends HTMLElement {
-    constructor() {
-        // Always call super first in constructor
-        super();
+  constructor() {
+    // Always call super first in constructor
+    super();
+  }
 
-    }
-
-    connectedCallback() {
-    }
-    disconnectedCallback() {
-    }
+  connectedCallback() {}
+  disconnectedCallback() {}
 }
 
-customElements.define('main-footer', class extends Footer {
+customElements.define(
+  "main-footer",
+  class extends Footer {
     connectedCallback() {
-        this.innerHTML = `
+      this.innerHTML = `
             <footer class="section-gap footer-widget-area">
                 <div class="overlay overlay-bg"></div>
                 <div class="container">
@@ -28,4 +27,7 @@ customElements.define('main-footer', class extends Footer {
 				</div>
 			</div>
 		</footer>
-    `}});
+    `;
+    }
+  }
+);
